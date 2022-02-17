@@ -61,7 +61,7 @@ ovo
 Saída:
 3
 
-Situação:⚠️ Resolvendo alguns problemas
+Situação: ✔️ Completa.
  
 Essa foi uma das ativades que demandou mais tempo, acredito que consegui chegar no resultado final
 de uma forma simples e objetiva, fiz uso de dois laços for desa vez n utilizei nem um laço de repetição
