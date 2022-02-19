@@ -31,7 +31,9 @@ Situação:✔️ Completa
 Utilizei um laço de repetição para que o codigo fique em loop ate que o usuario digite um numero valido, fiz uso do try e do catch para melhorar a estrutura do codigo, logo em seguida 
 criei um laço for com outros dois dentro dele para fazer a contagem e adicionar os inputs do espaço e do asteristico. Primeiro apliquei o for dos espaços e depois o dos ateristicos.
 deixei um else no final como uma ultima verificação e mensagem para o usuario.
-📝 [Javadoc](https://rafaelsantos222.github.io/capgemini1/questao02capgemini/package-summary.html)
+
+
+📝 [Javadoc](https://rafaelsantos222.github.io/capgemini02/)
 
 
 <h2>📃Questão 02</h2>
@@ -49,7 +51,9 @@ Situação:✔️ Completa.
 
 Na questao 02 tambem utilizei um laço de reptição para que o codigo não parase assim que o usuario digitasse algo invalido, sendo assim se o usuario digitar uma senha somente com 4 digitos dara a semnsagem que a senha dele não contem o minimo de digitos e voltara para o inicio para que o usuario coloque a senha corretamente.Assim que o  usuario digita a senha correta o sistema se encerra. 
 
-📝 [Javadoc](https://rafaelsantos222.github.io/capgemini02/)
+
+📝 [Javadoc](https://rafaelsantos222.github.io/capgemini1/questao02capgemini/package-summary.html)
+
 
 <h2>📃Questão 03</h2>
 Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
@@ -67,4 +71,6 @@ Situação: ✔️ Completa.
 Essa foi uma das ativades que demandou mais tempo, acredito que consegui chegar no resultado final
 de uma forma simples e objetiva, fiz uso de dois laços for desa vez n utilizei nem um laço de repetição
 pois a finalidade do programa é identificar anagramas o usuario digita o programa faz sua função e finaliza.
+
+
 📝 [Javadoc](https://rafaelsantos222.github.io/capgemini03/)
