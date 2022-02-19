@@ -13,7 +13,7 @@ public class Questao01capgemini {
     
     
     int n = 0;
-    public String teste1 = "";
+   
 
     public static  StringBuilder retorna(int num) {
         boolean rep = true;
