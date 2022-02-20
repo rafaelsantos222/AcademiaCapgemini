@@ -33,7 +33,7 @@ criei um laço for com outros dois dentro dele para fazer a contagem e adicionar
 deixei um else no final como uma ultima verificação e mensagem para o usuario.
 
 
-📝 [Javadoc](https://rafaelsantos222.github.io/capgemini02/)
+📝 [Javadoc](https://rafaelsantos222.github.io/JavadocCapgemini01/)
 
 
 <h2>📃Questão 02</h2>
@@ -52,7 +52,7 @@ Situação:✔️ Completa.
 Na questao 02 tambem utilizei um laço de reptição para que o codigo não parase assim que o usuario digitasse algo invalido, sendo assim se o usuario digitar uma senha somente com 4 digitos dara a semnsagem que a senha dele não contem o minimo de digitos e voltara para o inicio para que o usuario coloque a senha corretamente.Assim que o  usuario digita a senha correta o sistema se encerra. 
 
 
-📝 [Javadoc](https://rafaelsantos222.github.io/capgemini1/questao02capgemini/package-summary.html)
+📝 [Javadoc](https://rafaelsantos222.github.io/JavadocCapgemini02/)
 
 
 <h2>📃Questão 03</h2>
@@ -73,4 +73,4 @@ de uma forma simples e objetiva, fiz uso de dois laços for desa vez n utilizei 
 pois a finalidade do programa é identificar anagramas o usuario digita o programa faz sua função e finaliza.
 
 
-📝 [Javadoc](https://rafaelsantos222.github.io/capgemini03/)
+📝 [Javadoc](https://rafaelsantos222.github.io/JavadocCapgemini03/)
