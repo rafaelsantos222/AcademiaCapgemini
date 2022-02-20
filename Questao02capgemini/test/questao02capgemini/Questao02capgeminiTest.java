@@ -4,12 +4,11 @@
  */
 package questao02capgemini;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static junit.framework.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.*;
+import org.hamcrest.*;
+
 
 /**
  *
@@ -17,46 +16,16 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class Questao02capgeminiTest {
     
-    public Questao02capgeminiTest() {
-    }
-    
-    @BeforeAll
-    public static void setUpClass() {
-    }
-    
-    @AfterAll
-    public static void tearDownClass() {
-    }
-    
-    @BeforeEach
-    public void setUp() {
-    }
-    
-    @AfterEach
-    public void tearDown() {
-    }
-
-    /**
-     * Test of verificaSenha method, of class Questao02capgemini.
-     */
     @Test
     public void testVerificaSenha() {
-        System.out.println("verificaSenha");
-        Questao02capgemini.verificaSenha();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       // System.out.println("verificaSenha");
+        //Questao02capgemini.verificaSenha(senha);
+        Questao02capgemini q2 = new Questao02capgemini(); 
+        
+        assertEquals(false, q2.verificaSenhaForte("asdd"));
     }
 
-    /**
-     * Test of main method, of class Questao02capgemini.
-     */
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        Questao02capgemini.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+    
+   
     
 }

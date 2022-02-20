@@ -4,12 +4,13 @@
  */
 package questao03capgemini;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static junit.framework.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.*;
+import org.hamcrest.*;
+
+
+
 
 /**
  *
@@ -17,21 +18,25 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class Questao03capgeminiTest {
     
-    /**
-     * Test of verificaAnagrama method, of class teste.
-     */
-    @Test
-     void testVerificaAnagrama() {
- 
-        System.out.println("verificaAnagrama");
-        
-        // TODO review the generated test code and remove the default call to fail.
-       
+    
+  @Test
+    public void vefificaAnagramaEqualsValidoTresOcorrencias() {
+        Questao03capgemini q3 = new Questao03capgemini();   
+        assertEquals(3, q3.verificaAnagrama("ifailuhkqq"));
     }
 
-    /**
-     * Test of main method, of class Questao03capgemini.
-     */
-   
+    
+    @Test
+   public void vefificaAnagramaEqualsZeroOcorrencias() {
+        Questao03capgemini q3 = new Questao03capgemini();
+        assertEquals(0, q3.verificaAnagrama("av"));
+    }
+
+    
+    @Test
+   public void vefificaAnagramaEqualsValidoDuasOcorrencias() {
+       Questao03capgemini q3 = new Questao03capgemini();
+        assertEquals(2, q3.verificaAnagrama("ovo"));
+    }
     
 }

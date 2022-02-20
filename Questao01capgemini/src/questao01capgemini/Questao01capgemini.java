@@ -1,23 +1,23 @@
 package questao01capgemini;
-/**Classe para main, responsavel pela execução do programa
-* @author Rafael P. Santos
-* @version 1.00
-*/
+
+/**
+ * Classe para main, responsavel pela execução do programa
+ *
+ * @author Rafael P. Santos
+ * @version 1.00
+ */
 
 import java.util.Scanner;
 
- /* Algoritimo responvel por gerar uma 'Escada' de asteristicos, com a quantidade de linhas e
+/* Algoritimo responvel por gerar uma 'Escada' de asteristicos, com a quantidade de linhas e
   *asteristicos que o usario informar */
-
 public class Questao01capgemini {
-    
-    
-    int n = 0;
-    public String teste1 = "";
 
-    public static  StringBuilder retorna(int num) {
+    int n = 0;
+
+    public static void retorna(int num) {
         boolean rep = true;
-                
+
         Scanner entrada = new Scanner(System.in);
         while (rep == true) { // laço de repetição criado para que o codigo se repita caso o usuario não digitar um numero valido.
             System.out.println("Digite o valor de N:");
@@ -49,17 +49,11 @@ public class Questao01capgemini {
                 System.out.println("O valor tem que ser um numero inteiro maior do que 0");
             }
         }
-        return null;
-        
+
     }
 
     public static void main(String[] args) {
-        
-      
         retorna(2);
-                
-                        
-
     }
-    
+
 }
