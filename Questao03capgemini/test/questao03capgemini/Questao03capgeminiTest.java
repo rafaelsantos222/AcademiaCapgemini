@@ -17,8 +17,14 @@ import org.hamcrest.*;
  * @author Rafael
  */
 public class Questao03capgeminiTest {
+     @Test
+   public void vefificaAnagramaEqualsValidoDuasOcorrencias() {
+       Questao03capgemini q3 = new Questao03capgemini();
+        assertEquals(2, q3.verificaAnagrama("ovo"));
+    }
     
     
+   
   @Test
     public void vefificaAnagramaEqualsValidoTresOcorrencias() {
         Questao03capgemini q3 = new Questao03capgemini();   
@@ -26,17 +32,7 @@ public class Questao03capgeminiTest {
     }
 
     
-    @Test
-   public void vefificaAnagramaEqualsZeroOcorrencias() {
-        Questao03capgemini q3 = new Questao03capgemini();
-        assertEquals(0, q3.verificaAnagrama("av"));
-    }
-
     
-    @Test
-   public void vefificaAnagramaEqualsValidoDuasOcorrencias() {
-       Questao03capgemini q3 = new Questao03capgemini();
-        assertEquals(2, q3.verificaAnagrama("ovo"));
-    }
+ 
     
 }
