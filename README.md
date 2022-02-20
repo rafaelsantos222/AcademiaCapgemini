@@ -6,6 +6,8 @@
 Utilizei o java para realizar este testes, é a linguagem que tenho mais contato, e é a que eu escolhi para me desenvover na programação.
 Utilizei o Apache NetBeans como IDE.
 
+*Utilizei o JUnit 4.13 para realizar os testes não consegui implatar o teste com a versao mais atual, foi meu primento contato com testes unitarios.
+
 
 
 <h2>📃Questão 01</h2>
